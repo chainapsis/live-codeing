@@ -42,6 +42,14 @@ export const Styles = {
     flex-direction: row;
     gap: 8px;
   `,
+  Buttons: styled.div`
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  `,
+  Delete: styled.div`
+    cursor: pointer;
+  `,
   Flex1: styled.div`
     flex: 1;
   `,
