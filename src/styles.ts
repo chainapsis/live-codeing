@@ -17,6 +17,10 @@ export const Styles = {
     width: 100%;
     height: 32px;
   `,
+  CheckBox: styled.input`
+    width: 24px;
+    height: 24px;
+  `,
   Divider: styled.div`
     width: 100%;
 
