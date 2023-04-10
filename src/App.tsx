@@ -23,7 +23,11 @@ function App() {
           <div>Select All</div>
 
           <Styles.Flex1 />
-          <button>Add</button>
+          <Styles.Buttons>
+            <Styles.AddButton>Add</Styles.AddButton>
+            <Styles.SortButton>Sort ASC</Styles.SortButton>
+            <Styles.SortButton>Sort DESC</Styles.SortButton>
+          </Styles.Buttons>
         </Styles.Title>
         <Styles.Divider />
         <Styles.ItemList>
@@ -31,6 +35,8 @@ function App() {
             return (
               <Styles.Item key={item.id}>
                 <input type="checkbox" /> <div>{item.label}</div>
+                <Styles.Flex1 />
+                <Styles.Delete>X</Styles.Delete>
               </Styles.Item>
             );
           })}

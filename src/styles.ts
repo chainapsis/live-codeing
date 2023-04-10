@@ -26,6 +26,7 @@ export const Styles = {
   Title: styled.div`
     display: flex;
     flex-direction: row;
+    align-items: center;
 
     margin-top: 32px;
 
@@ -40,6 +41,7 @@ export const Styles = {
   Item: styled.div`
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 8px;
   `,
   Buttons: styled.div`
@@ -47,8 +49,32 @@ export const Styles = {
     flex-direction: row;
     gap: 8px;
   `,
-  Delete: styled.div`
+  AddButton: styled.button`
+    width: 80px;
+    height: 36px;
     cursor: pointer;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    background-color: #2c4be2;
+  `,
+  SortButton: styled.button`
+    width: 80px;
+    height: 36px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    background-color: #404045;
+  `,
+  Delete: styled.button`
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    background-color: #f0224b;
   `,
   Flex1: styled.div`
     flex: 1;
