@@ -15,7 +15,7 @@ module.exports = {
     },
   },
   rules: {
-    "prettier/prettier": "error",
+    "prettier/prettier": ["error", { endOfLine: "auto" }],
     "react/prop-types": "off",
     "react/self-closing-comp": "error",
     "react/jsx-fragments": ["error", "element"],
