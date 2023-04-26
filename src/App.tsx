@@ -48,7 +48,7 @@ const CheckItem: FunctionComponent<{
     <Styles.Item key={item.id}>
       <Styles.CheckBox type="checkbox" readOnly />
       <div>
-        <b>[{item.id}]</b> {item.label}
+        <b>[Id: {item.id}]</b> : {item.label}
       </div>
       <Styles.Flex1 />
       <Styles.Delete>X</Styles.Delete>
